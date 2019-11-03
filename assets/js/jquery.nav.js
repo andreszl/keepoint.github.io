@@ -25,7 +25,7 @@
 		this.$elem = $(elem);
 		this.options = options;
 		this.metadata = this.$elem.data('plugin-options');
-		this.$nav = this.$elem.find('.nav-item');
+		this.$nav = this.$elem.find('a');
 		this.$win = $(window);
 		this.sections = {};
 		this.didScroll = false;
