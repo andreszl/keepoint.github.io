@@ -1,0 +1,10 @@
+html {
+    margin-top: 50px;
+}
+
+body {
+    height: 2800px;
+    background-image: url("../img/keepoint-guide.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
