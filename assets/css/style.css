@@ -1335,3 +1335,31 @@ img.pull-left{
 		line-height:1.5em;
 	}
 }
+
+#guide .only-mobile {
+	display: none;
+}
+
+@media (max-width: 1050px) {
+
+	#guide .only-desktop {
+		display: none;
+	}
+	#guide .only-mobile {
+		display: block;
+	}
+}
+
+#guide img {
+	margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+	#guide img {
+		margin-top: 20px;
+	}
+
+	
+}
+
+
